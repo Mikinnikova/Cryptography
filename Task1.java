@@ -19,10 +19,10 @@ public class Task1 {
 * */
     public static void main(String[] args) {
 
-        System.out.println(mod(6,100));
-        System.out.println(mod(6,5,100));
-        System.out.println(reverse(13,2,53));
-        System.out.println(randomPrime(6,100));
+        System.out.println(mod(6,100)); // Пример a mod m = x
+        System.out.println(mod(6,5,100));// Пример a^b mod m = x
+        System.out.println(reverse(13,2,53));// Пример a*x ≡ b mod m
+        System.out.println(randomPrime(6,100)); // Пример генерирования простого числа в диопозоне
 
 
 
